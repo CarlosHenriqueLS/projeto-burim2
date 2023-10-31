@@ -1,0 +1,88 @@
+@media (max-width: 880px) {
+    #resumo {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+    }
+
+    ion-icon {
+        margin: 10px;
+    }
+
+    #resumo div {
+        width: 200px;
+    }
+
+    #post h2 {
+        margin: 10px;
+    }
+
+    section#post {
+        width: 45vh;
+    }
+
+    #sidebar {
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        margin: auto;
+    }
+
+    #secundario {
+        width: 50vh;
+    }
+
+    #secundario img {
+        width: 400px;
+    }
+
+}
+
+
+article#secundario>section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 400;
+    font-family: var(--fonte1);
+    max-width: 80vh;
+    padding: 15px;
+    margin: auto;
+    text-align: justify;
+    list-style-position: inside;
+}
+
+#secundario img {
+    max-width: 80vh;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+#secundario a {
+    color: black;
+    text-decoration: none;
+    background-color: #3e606f;
+    padding: 2px;
+    border-radius: 3px;
+    transition-duration: 1s;
+}
+
+#secundario a:hover {
+    text-shadow: underline;
+    background-color: #193441;
+    color: white;
+}
+
+#twitt h2{
+    text-align: center;
+    margin: 10px;
+}
+
+#cell {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    max-width: 50vh;
+}
